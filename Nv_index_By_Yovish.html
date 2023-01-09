@@ -1,0 +1,227 @@
+<!-- 
+
+    CODE DID BY YOVISH MOONESAMY 
+
+ -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wengo, le conseil de Professionnels en ligne par téléphone et email</title>
+    <meta name="description"
+        content="Des milliers de professionnels Wengo disponibles 7/7j, dans tous les domaines. Les conseillers répondent à vos questions et sont évalués par les clients.">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+
+    <!-- Import icon -->
+    <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/styles.css" />
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+            width: 100%;
+            height: 100vh;
+
+            background-color: #ccc;
+            color: #111;
+            font-family: Arial;
+        }
+
+        /* Nav */
+        nav{
+            background-color: #444;
+            
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+
+        nav>div{
+            width: 50%;
+        }
+
+        #menu {
+            margin: 10px 15px;
+            text-align: right;
+        }
+
+        #logo>a>img{
+            width: 200px;
+        }
+
+        /* Links */
+        #menu>ul>li {
+            display: inline-block;
+            margin: 0;
+        }
+
+        /* Link */
+        #menu>ul>li>a {
+            padding: 5px;
+            color: #fff;
+        }
+
+        /* Bold */
+        #bold {
+            font-weight: bold;
+        }
+
+        /* Section */
+
+        section{
+            width: 100%;
+            height: 100vh;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* Table */
+        table,
+        th,
+        td {
+            border: 1px solid grey;
+        }
+
+        /* Footer */
+        footer {
+            width: 100%;
+            height: 50px;
+
+            background-color: #444;
+            
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            font-size: 10px;
+            color: #999;
+            font-style: underline;
+        }
+    </style>
+
+    <!-- js -->
+    <script src="./js/jquery.js" defer></script>
+</head>
+
+<body id="page">
+    <!-- Header -->
+    <header>
+        <!-- Nav -->
+        <nav>
+            <div id="logo"><a href="#"><img src="images/logo.jpg" alt="Wengo Logo" /></a></div>
+            <div id="menu">
+                <span><a href="#">Login</a> | <a href="#" id="bold">S'enregistrer</a></span>
+                <br />
+                <ul>
+                    <li><a href="#" id="bold">Juridique</a></li>
+                    <li><a href="#">Business</a></li>
+                    <li><a href="#">Informatique</a></li>
+                    <li><a href="#">Psychologie</a></li>
+                    <li><a href="#">Bien-être</a></li>
+                    <li><a href="#">Astro</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main -->
+    <main>
+        <h1 style="text-align: center;">Comment ça marche ?</h1>
+        <div class="how_content">
+            <!-- Find a expert -->
+            <section>
+                <h2>Trouver un Expert</h2>
+                <article>
+                    <p>Tous nos voyants, psychologues, avocats et autres experts sont qualifiés et leurs profils
+                        vérifiés.
+                    </p>
+                </article>
+            </section>
+
+            <!-- Ask a consulation -->
+            <section>
+                <h2>Demandez une consultation</h2>
+                <article>
+                    <p>Consultez par téléphone, chat ou e-mail - quand vous voulez, où vous voulez</p>
+                </article>
+            </section>
+
+            <!-- Connect you directly -->
+            <section>
+                <h2>Connectez-vous directement</h2>
+                <article>
+                    <p>En quelques minutes, l'expert sélectionné vous guidera en vous proposant les outils dont vous
+                        avez
+                        besoin pour vous aider à vous sentir mieux.</p>
+                </article>
+            </section>
+
+            <!-- You are the expert -->
+            <section>
+                <h2>Vous êtes un expert ?</h2>
+                <article>
+                    <p>Rejoignez notre brillante équipe d'experts et offrez le meilleur des services de conseils.</p>
+                </article>
+            </section>
+
+            <!-- Lorem -->
+            <section>
+                <h2>Lorem ipsum dolore sit amet</h2>
+                <article>
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque : </p>
+                    <ul style="text-align: center;">
+                        <li>Lorem</li>
+                        <li>Ipsum</li>
+                        <li>Dolore</li>
+                        <li>Sit</li>
+                    </ul>
+                </article>
+            </section>
+        </div>
+
+        <!-- Last registration -->
+        <section>
+            <div>
+                <img src="./images/bugz_commentcamarche.jpg" alt="Comment ça marche" />
+            </div>
+            <div>
+                <p id="bold">Derniers inscrits : </p>
+            </div>
+            <table cellspacing="5" cellpadding="5">
+                <thead>
+                    <tr>
+                        <th>Aujourd'hui</th>
+                        <th>Hier</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>5</td>
+                        <td>15</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Total = 20</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>2021 - MyBestPro - 75 rue d'Amsterdam - 75008 Paris</p>
+    </footer>
+</body>
+
+</html>
